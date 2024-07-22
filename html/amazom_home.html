@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/amazon_home.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 </head>
 <body>
     <header>
@@ -72,13 +72,27 @@
             <div class="nav-below-final box-border">Prime Day 16-17 July</div>
         </div>
         <div class="hero-section">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide scroll-image1"></div>
+                  <div class="swiper-slide scroll-image2"></div>
+                  <div class="swiper-slide scroll-image3"></div>
+                  <div class="swiper-slide scroll-image4"></div>
+                  <div class="swiper-slide scroll-image5"></div>
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev "></div>
+                <div class="swiper-button-next "></div>
+              </div>
             <div class="hero-sub-section js-herocard">
-                
             </div>
 
         </div>
     </header>
-    <script src="../javaScript/heroCards.js"></script>
-    <script src="../javaScript/amazon_home.js"></script>
+  
+    <script type="module" src="../javaScript/amazon_home.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 </html>

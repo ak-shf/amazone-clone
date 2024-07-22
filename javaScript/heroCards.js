@@ -1,5 +1,5 @@
 
-let cards=[{
+ const cards=[{
     card_heading:"Home and kitchen",
     card1:{
         card_image:"../image/hero-section/home&kitchen/1.jpg",
@@ -187,3 +187,4 @@ cards.push({
     card_link_name:"See more",
     card_link_path:"#"
 });
+export default cards;
