@@ -1,4 +1,6 @@
+import cards  from './heroCards.js'
 let herocard='';
+
 cards.forEach((maincard,index)=>{
     if (index!=cards.length-1) {
         
@@ -45,3 +47,21 @@ cards.forEach((maincard,index)=>{
     document.querySelector('.js-herocard').innerHTML=herocard;
     
 })
+
+
+const swiper = new Swiper('.swiper', {
+   
+    loop: true,
+  
+    // If we need pagination
+    
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    
+  });
